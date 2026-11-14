@@ -12,7 +12,7 @@ CSS = """
 main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
 h1{font-size:1.6rem;line-height:1.3;margin:0 0 4px}h2{font-size:1.1rem;margin:28px 0 8px}
 .meta{color:var(--muted);font-size:.9rem;margin-bottom:20px}.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px}
-a{color:var(--accent)}ul{padding-left:1.2em}li{margin:4px 0}nav.lang{margin-bottom:16px;font-size:.9rem}nav.lang a{margin-right:12px}
+a{color:var(--accent);overflow-wrap:anywhere}p,li{overflow-wrap:anywhere}ul{padding-left:1.2em}li{margin:4px 0}nav.lang{margin-bottom:16px;font-size:.9rem}nav.lang a{margin-right:12px}
 footer{color:var(--muted);font-size:.85rem;margin-top:28px}
 """
 
