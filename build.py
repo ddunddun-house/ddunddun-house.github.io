@@ -107,6 +107,33 @@ APPS = [
             ],
         },
     },
+    {
+        "slug": "chaekbangul", "dir": "ChaekBangul",
+        "name": {"ko": "책방울", "en": "Chaekbangul", "ja": "チェクパンウル"},
+        "tagline": "좋은 문장은 형광펜으로 줍고, 읽은 책을 오래 기억하는 독서 노트",
+        "privacy": {"ko": "개인정보처리방침.md", "en": "PrivacyPolicy_en.md", "ja": "PrivacyPolicy_ja.md"},
+        "faq": {
+            "ko": [
+                ("책 검색이 안 돼요", "책 검색은 내 카카오 REST API 키를 연결해야 쓸 수 있어요. 책 추가 또는 설정 → 책 정보에서 '카카오 책 검색 연결'의 따라 하기 안내를 봐 주세요. 연결하지 않아도 직접 추가와 바코드로 책을 담을 수 있어요."),
+                ("페이지 글자를 잘 못 읽어요", "페이지가 화면에 꽉 차고 밝게 찍히도록 해 주세요. 세로쓰기(일본어 세로 글)는 읽지 못할 수 있어요. 그럴 때는 직접 입력해 주세요."),
+                ("구매를 복원하고 싶어요", "오늘 화면 왼쪽 위 톱니 → 설정 → 책방울 프로 → 구매 복원."),
+                ("구독을 해지하고 싶어요", "iPhone 설정 → Apple 계정 → 구독, 또는 책방울 설정 → 책방울 프로 → 구독 관리에서 해지할 수 있어요."),
+                ("기록이 다른 기기에도 보이나요?", "같은 Apple 계정으로 iCloud에 로그인한 기기끼리 자동으로 맞춰져요. 운영자 서버에는 저장되지 않아요."),
+            ],
+            "en": [
+                ("Book search", "English and Japanese versions add books by typing the title. The app draws a cover, or you can use your own photo."),
+                ("Restore purchases", "Today → gear icon (top left) → Settings → Chaekbangul Pro → Restore Purchases."),
+                ("Cancel a subscription", "iPhone Settings → Apple Account → Subscriptions."),
+                ("Sync", "devices signed in to the same Apple Account with iCloud stay in sync. Nothing is stored on developer servers."),
+            ],
+            "ja": [
+                ("本の追加", "英語版・日本語版はタイトルを入力して追加します。表紙はアプリが描くか、自分の写真を使えます。縦書きのページは読み取れないことがあります。"),
+                ("購入の復元", "今日の画面の左上の歯車 → 設定 → チェクパンウル プロ → 購入を復元。"),
+                ("サブスクの解約", "iPhoneの設定 → Appleアカウント → サブスクリプション。"),
+                ("同期", "同じAppleアカウントでiCloudにログインした端末同士で自動的に同期されます。運営者のサーバーには保存されません。"),
+            ],
+        },
+    },
 ]
 
 FILES = {"ko": "privacy.html", "en": "privacy-en.html", "ja": "privacy-ja.html"}
