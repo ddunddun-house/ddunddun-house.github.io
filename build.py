@@ -82,6 +82,31 @@ APPS = [
             ],
         },
     },
+    {
+        "slug": "phonap", "dir": "PhonAp",
+        "name": {"ko": "폰압", "en": "PhonAp", "ja": "フォンアップ"},
+        "tagline": "자꾸 손이 가는 앱을 정한 시간 동안 압수하는 앱 잠금",
+        "privacy": {"ko": "개인정보처리방침.md", "en": "PrivacyPolicy_en.md", "ja": "PrivacyPolicy_ja.md"},
+        "faq": {
+            "ko": [
+                ("급하게 풀어야 해요", "압수 화면의 '풀고 싶어요'를 눌러 미션을 하거나, 그 아래 '비상 해제'를 써 주세요. 비상 해제는 일주일에 한 번, 미션 없이 30분 풀리고 연속 기록은 끊겨요."),
+                ("설정 앱에서 스크린타임 권한을 끄면요?", "iOS에서는 어떤 앱도 설정 앱을 막을 수 없어서 차단이 풀려요. 폰압은 이를 우회로 기록하고 연속 기록을 끊어요."),
+                ("구매를 복원하고 싶어요", "설정 → 프로 → 구매 복원."),
+                ("구독을 해지하고 싶어요", "iPhone 설정 → Apple 계정 → 구독, 또는 폰압 설정 → 프로 → 구독 관리에서 해지할 수 있어요."),
+                ("말하기 미션 소리는 어디로 가나요?", "기기 안에서만 인식하고, 저장하거나 밖으로 보내지 않아요."),
+            ],
+            "en": [
+                ("Emergency unlock", "tap 'I want to unlock' on the lock screen to do a mission, or use 'Emergency unlock': once a week, 30 minutes without a mission, and your streak resets."),
+                ("Restore purchases", "Settings → Pro → Restore purchases."),
+                ("Cancel a subscription", "iPhone Settings → Apple Account → Subscriptions."),
+            ],
+            "ja": [
+                ("緊急解除", "没収画面の「解除したい」からミッションに進むか、「緊急解除」を使ってください。週1回、ミッションなしで30分解除され、連続記録は途切れます。"),
+                ("購入の復元", "設定 → プロ → 購入を復元。"),
+                ("サブスクの解約", "iPhoneの設定 → Appleアカウント → サブスクリプション。"),
+            ],
+        },
+    },
 ]
 
 FILES = {"ko": "privacy.html", "en": "privacy-en.html", "ja": "privacy-ja.html"}
