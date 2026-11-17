@@ -134,6 +134,27 @@ APPS = [
             ],
         },
     },
+    {
+        "slug": "munjangjupjup", "dir": "MunjangJupjup",
+        "name": {"ko": "문장줍줍", "en": "Munjang Jupjup"},
+        "tagline": "찍고, 형광펜으로 긋고, 외우는 영어 문장 노트",
+        "privacy": {"ko": "개인정보처리방침.md", "en": "PrivacyPolicy_en.md"},
+        "faq": {
+            "ko": [
+                ("글자를 잘 못 읽어요", "밝은 곳에서 글자가 화면을 가득 채우게 찍어 주세요. 그래도 안 되면 붙여넣기나 직접 쓰기로 넣을 수 있어요. 한글 줄은 자동으로 빠져요."),
+                ("결과가 늦게 나와요", "기기 AI가 20초 안에 답하지 않으면 자동 규칙으로 정리해 보여 줘요. 결과 위 회색 배지에서 어디서 만들었는지 볼 수 있어요."),
+                ("자랑하기를 눌렀는데 광고가 안 나와요", "광고를 불러오지 못하면 광고 없이 바로 공유 창이 열리고, 버튼 위에 이유가 보여요. 문의할 때 그 이유(괄호 안 번호 포함)를 적어 주시면 빨라요."),
+                ("구매를 복원하고 싶어요", "나 탭 → 구매 → 구매 복원."),
+                ("기록이 다른 기기에도 보이나요?", "같은 Apple 계정으로 iCloud에 로그인한 기기끼리 이어져요. 운영자 서버에는 저장되지 않아요."),
+            ],
+            "en": [
+                ("Text isn't recognized", "Take the photo in good light so the text fills the screen, or paste or type the sentence instead."),
+                ("No ad when sharing a card", "If an ad can't load, the share sheet opens without one and the reason appears above the button. Please include it when you contact us."),
+                ("Restore purchases", "Me tab → Purchase → Restore Purchases."),
+                ("Sync", "Devices signed in to the same Apple Account with iCloud stay in sync. Nothing is stored on developer servers."),
+            ],
+        },
+    },
 ]
 
 FILES = {"ko": "privacy.html", "en": "privacy-en.html", "ja": "privacy-ja.html"}
