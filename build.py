@@ -173,6 +173,29 @@ APPS = [
             ],
         },
     },
+    {
+        "slug": "geunalhyeonsang", "dir": "GeunalHyeonsang",
+        "name": {"ko": "그날현상", "en": "Develop Day"},
+        "tagline": "롤마다 현상일을 정하고, 그날 인화 봉투를 여는 필름 카메라",
+        "privacy": {"ko": "개인정보처리방침.md", "en": "PrivacyPolicy_en.md"},
+        "faq": {
+            "ko": [
+                ("현상 전에 사진을 볼 수 없나요?", "볼 수 없어요. 롤 화면에서 현상일을 앞당기거나, '지금 인화'로 남은 컷이 있어도 바로 현상할 수 있어요(무료는 짧은 광고를 본 뒤)."),
+                ("현상한 봉투를 지우고 싶어요", "보관함에서 봉투를 길게 눌러 '봉투 버리기'를 고르거나, 앨범 맨 아래 '봉투 버리기'를 눌러요. 이 기기와 iCloud에서 지워지고 되돌릴 수 없어요. 사진 앱에 이미 저장된 사진은 그대로 남아요."),
+                ("광고가 있나요?", "배너 광고는 없어요. 무료에서 '지금 인화'를 하거나 두 번째 롤부터 새 롤을 넣을 때만 직접 고른 짧은 광고가 나와요. Pro는 광고가 없어요."),
+                ("현상 알림이 안 와요", "설정 앱 → 그날현상 → 알림을 켜 주세요. 앱을 열면 현상일이 지난 롤은 바로 현상돼요."),
+                ("구매를 복원하고 싶어요", "설정 → Pro → '구매 복원'. 같은 Apple 계정이면 기기를 바꿔도 돌아와요."),
+                ("다른 기기에도 사진이 보이나요?", "설정의 'iCloud 백업'(기본 켜짐)을 켜 두면 같은 Apple 계정의 내 iCloud에 저장돼요. 개발자 서버에는 저장되지 않아요."),
+            ],
+            "en": [
+                ("Can I see photos before they develop?", "No. You can move the develop day earlier, or use Develop Now to develop a roll right away (free users watch a short ad first)."),
+                ("Delete a developed envelope", "Long-press the envelope on the shelf and choose Delete Envelope, or tap Delete Envelope at the bottom of the album. It is removed from this device and iCloud and can't be undone. Photos already saved to the Photos app stay."),
+                ("Are there ads?", "No banner ads. Free users see a short ad they choose only for Develop Now and for loading a second or later roll. Pro has no ads."),
+                ("Restore purchases", "Settings → Pro → Restore Purchases."),
+                ("Sync", "With iCloud Backup on (the default), rolls are stored in your own iCloud. Nothing is stored on developer servers."),
+            ],
+        },
+    },
 ]
 
 FILES = {"ko": "privacy.html", "en": "privacy-en.html", "ja": "privacy-ja.html"}
